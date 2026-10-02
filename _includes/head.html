@@ -14,8 +14,8 @@
     })();
   </script>
   {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <script src="{{ "/assets/theme-toggle.js" | relative_url }}" defer></script>
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}?v={{ site.time | date: "%s" }}">
+  <script src="{{ "/assets/theme-toggle.js" | relative_url }}?v={{ site.time | date: "%s" }}" defer></script>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
