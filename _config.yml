@@ -11,6 +11,7 @@ plugins:
 github_username: robinsjm2
 linkedin_username: jonathan-robinson-a2085bb6
 header_pages:
+  - experience.md
   - projects.md
 markdown: kramdown
 kramdown:
