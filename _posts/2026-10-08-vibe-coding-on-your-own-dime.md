@@ -26,9 +26,9 @@ I ran into this firsthand this week, building my next side project with Claude C
 
 ## 1. I was using the biggest model for everything
 
-I normally work with Opus 4.8. This week I was on Opus 5.5 without really choosing it, and used it for everything: architecture discussions, but also renaming a stack, fixing a lint error, and writing commit messages. A bigger model is worth it when the problem is hard. Most of a build session is small, well-defined edits where a smaller model gives the same answer for less.
+This week I was on Opus without really choosing it, and used it for everything: architecture discussions, but also renaming a stack, fixing a lint error, and writing commit messages. A top-tier model is worth it when the problem is hard. Most of a build session is small, well-defined edits where a smaller model, such as Sonnet, gives the same answer for less.
 
-**What I changed:** my default is back to the model I'd normally use, and I bump up deliberately when a task needs it, rather than paying the top rate for routine work by accident.
+**What I changed:** I match the model to the task: a smaller model for routine edits, and I bump up deliberately when a task needs it, rather than paying the top rate for routine work by accident. Newer isn't the same as pricier, either: the latest Opus costs less per token than the one before it. Check current pricing rather than assuming.
 
 ## 2. Effort was set to high when medium was enough
 
